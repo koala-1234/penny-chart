@@ -30,3 +30,9 @@ Desktop charting app for Windows with an AI companion. This repository only dist
 Copyright 2026 dorytossy. All rights reserved.
 
 이 프로그램은 다음 소프트웨어를 사용합니다: OpenAlgo Charts (Apache License 2.0), Electron (MIT), Chromium. 각 라이선스는 설치 폴더의 `LICENSE-OpenAlgo-Apache-2.0.txt`, `NOTICE.txt`, `LICENSE.electron.txt`, `LICENSES.chromium.html` 에 들어 있습니다.
+
+## VirusTotal 검사 결과
+
+[최신 릴리스](../../releases/latest)의 **VirusTotal 검사 결과** 표에서 설치 파일별 탐지 수, 검사 시각, SHA-256과 보고서를 확인할 수 있습니다. 검사 대기·진행·실패는 검사 완료와 구분해 표시합니다. 탐지 0건은 안전을 보증하지 않습니다.
+
+릴리스 발행 시 자동 검사하고, 6시간마다 최신 결과를 갱신합니다. 최초 활성화에는 `VT_API_KEY` Actions Secret이 필요합니다. [설정 안내](VIRUSTOTAL_KO.md) · [자동 검사 워크플로](../../actions/workflows/virustotal.yml)
