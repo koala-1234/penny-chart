@@ -33,6 +33,11 @@ Copyright 2026 dorytossy. All rights reserved.
 
 ## VirusTotal 검사 결과
 
-[최신 릴리스](../../releases/latest)의 **VirusTotal 검사 결과** 표에서 설치 파일별 탐지 수, 검사 시각, SHA-256과 보고서를 확인할 수 있습니다. 검사 대기·진행·실패는 검사 완료와 구분해 표시합니다. 탐지 0건은 안전을 보증하지 않습니다.
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-v2.3.0%20scan-394EFF?logo=virustotal)](../../releases/latest)
 
-릴리스 발행 시 자동 검사하고, 6시간마다 최신 결과를 갱신합니다. 최초 활성화에는 `VT_API_KEY` Actions Secret이 필요합니다. [설정 안내](VIRUSTOTAL_KO.md) · [자동 검사 워크플로](../../actions/workflows/virustotal.yml)
+최신 설치 파일의 VirusTotal 보고서 (Latest installer reports):
+
+- `Penny-Chart-Setup-2.3.0.exe` — https://www.virustotal.com/gui/file/a782ddd7f2be4d3f48fe554054b98d223d0d6da86892ef17d953cbf93bea4b57
+- `Penny-Chart-Private-Test-2.3.0-x64.exe` — https://www.virustotal.com/gui/file/4d251e6df828fdd2e745ad8ab4ca2a3e0ee133e42444aad87136d7020d4bd662
+
+릴리스 발행 시 [자동 검사 워크플로](../../actions/workflows/virustotal.yml)가 설치 파일을 검사하고, 각 [릴리스](../../releases) 설명 끝의 **VirusTotal** 섹션에 탐지 수, SHA-256, 보고서 링크를 추가합니다. 탐지 0건은 안전을 보증하지 않습니다. [설정 안내](VIRUSTOTAL_KO.md)
