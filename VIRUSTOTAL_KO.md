@@ -1,7 +1,7 @@
 # GitHub 릴리스 VirusTotal 자동 표시
 
 배포 저장소 koala-1234/penny-chart에 설치하는 GitHub Actions입니다.
-프로그램 소스 저장소에는 동작하지 않으며, 공개 릴리스의 Penny-Chart-Setup-*.exe와 Penny-Chart-Private-Test-*.exe만 검사합니다.
+프로그램 소스 저장소에는 동작하지 않으며, 공개 릴리스의 릴리스에 첨부된 설치 파일(*.exe 등)만 검사합니다.
 
 ## 표시와 실행
 
