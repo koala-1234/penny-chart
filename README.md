@@ -5,7 +5,7 @@
 
 Desktop charting app for Windows with an AI companion. This repository only distributes the installer; the source code is not public.
 
-**최신 버전 · Latest: [v2.4.53](../../releases/tag/v2.4.53)**
+**최신 버전 · Latest: [v2.6.10](../../releases/tag/v2.6.10)**
 
 ## 설치 · Install
 
@@ -35,10 +35,10 @@ Copyright 2026 dorytossy. All rights reserved.
 
 ## VirusTotal 검사 결과
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-v2.4.53%20scan%200%2F66-394EFF?logo=virustotal)](../../releases/latest)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-v2.6.10%20scan%200%2F66-394EFF?logo=virustotal)](../../releases/latest)
 
 최신 설치 파일의 VirusTotal 보고서 (Latest installer reports):
 
-- `Penny-Chart-Beta-2.4.53-x64.exe` — **0/66** — https://www.virustotal.com/gui/file/5323d011debf99b60c6cdc484e394e59aaf6a8a883844f7e2099b9d3b992078c
+- `Penny-Chart-Beta-2.6.10-x64.exe` — **0/66** — https://www.virustotal.com/gui/file/29d871cf263ffa0a7f967dfeba41f2fc4308f16c83821bec1d8567dce26b1205
 
 릴리스 발행 시 [자동 검사 워크플로](../../actions/workflows/virustotal.yml)가 설치 파일을 검사하고, 각 [릴리스](../../releases) 설명 끝의 **VirusTotal** 섹션에 탐지 수, SHA-256, 보고서 링크를 추가합니다. 탐지 0건은 안전을 보증하지 않습니다. [설정 안내](VIRUSTOTAL_KO.md)
