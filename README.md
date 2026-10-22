@@ -5,13 +5,19 @@
 
 Desktop charting app for Windows with an AI companion. This repository only distributes the installer; the source code is not public.
 
-**최신 버전 · Latest: [v2.6.10](../../releases/tag/v2.6.10)**
+[Windows 다운로드](../../releases/latest) · [Android 다운로드](../../releases/download/android-latest/Penny-Chart-Android.apk)
 
 ## 설치 · Install
 
 1. [Releases](../../releases/latest) 에서 `Penny-Chart-Beta-<버전>-x64.exe` 를 내려받아 실행합니다.
 2. Windows 가 "알 수 없는 게시자" 경고를 띄우면 **추가 정보 → 실행** 을 누르세요. (설치 파일에 코드 서명이 없습니다.)
 3. 설치 뒤에는 새 버전이 올라오면 앱 맨 위 헤더에 `업데이트` 단추가 나타납니다. 누르면 내려받아 설치하며, 서명(ed25519)과 해시(sha512)가 맞지 않는 파일은 설치하지 않습니다.
+
+## Android 설치
+
+[Android APK 다운로드](../../releases/download/android-latest/Penny-Chart-Android.apk) · [Android 릴리스 안내](../../releases/tag/android-latest)
+
+Android 8.0 이상을 지원합니다. 현재 배포 파일은 debug 테스트 빌드입니다. 파일 이름과 다운로드 주소는 버전 번호 없이 유지합니다.
 
 ## 특징
 
@@ -35,10 +41,4 @@ Copyright 2026 dorytossy. All rights reserved.
 
 ## VirusTotal 검사 결과
 
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-v2.6.10%20scan%200%2F66-394EFF?logo=virustotal)](../../releases/latest)
-
-최신 설치 파일의 VirusTotal 보고서 (Latest installer reports):
-
-- `Penny-Chart-Beta-2.6.10-x64.exe` — **0/66** — https://www.virustotal.com/gui/file/29d871cf263ffa0a7f967dfeba41f2fc4308f16c83821bec1d8567dce26b1205
-
-릴리스 발행 시 [자동 검사 워크플로](../../actions/workflows/virustotal.yml)가 설치 파일을 검사하고, 각 [릴리스](../../releases) 설명 끝의 **VirusTotal** 섹션에 탐지 수, SHA-256, 보고서 링크를 추가합니다. 탐지 0건은 안전을 보증하지 않습니다. [설정 안내](VIRUSTOTAL_KO.md)
+Windows 설치 파일의 검사 결과와 SHA-256은 [해당 릴리스](../../releases/latest)에서 확인하세요. 릴리스 발행 시 [자동 검사 워크플로](../../actions/workflows/virustotal.yml)가 결과를 릴리스 설명에 추가합니다. 탐지 0건은 안전을 보증하지 않습니다. [설정 안내](VIRUSTOTAL_KO.md)
