@@ -7,6 +7,9 @@ Desktop charting app for Windows with an AI companion. This repository only dist
 
 [Windows 다운로드](../../releases/latest) · [Android 다운로드](../../releases/download/android-latest/Penny-Chart-Android.apk)
 
+**최신 버전 · Latest:** [PC v2.7.4](../../releases/tag/v2.7.4) (`Penny-Chart-Beta-2.7.4-x64.exe`)  
+**Android:** [APK 2.8.5 (debug 빌드)](../../releases/tag/android-v2.8.5) (`Penny-Chart-Android-2.8.5-debug.apk`)
+
 ## 설치 · Install
 
 1. [Releases](../../releases/latest) 에서 `Penny-Chart-Beta-<버전>-x64.exe` 를 내려받아 실행합니다.
