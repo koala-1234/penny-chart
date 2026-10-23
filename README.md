@@ -7,8 +7,8 @@ Desktop charting app for Windows with an AI companion. This repository only dist
 
 [Windows 다운로드](../../releases/latest) · [Android 다운로드](../../releases/download/android-latest/Penny-Chart-Android.apk)
 
-**최신 버전 · Latest:** [PC v2.7.4](../../releases/tag/v2.7.4) (`Penny-Chart-Beta-2.7.4-x64.exe`)  
-**Android:** [APK 2.8.5 (debug 빌드)](../../releases/tag/android-v2.8.5) (`Penny-Chart-Android-2.8.5-debug.apk`)
+**최신 버전 · Latest:** [PC v2.7.8](../../releases/tag/v2.7.8) (`Penny-Chart-Beta-2.7.8-x64.exe`)  
+**Android:** [APK 2.8.10 (릴리스 빌드)](../../releases/tag/android-v2.8.10) (`Penny-Chart-Android-2.8.10.apk`)
 
 ## 설치 · Install
 
@@ -20,7 +20,7 @@ Desktop charting app for Windows with an AI companion. This repository only dist
 
 [Android APK 다운로드](../../releases/download/android-latest/Penny-Chart-Android.apk) · [Android 릴리스 안내](../../releases/tag/android-latest)
 
-Android 8.0 이상을 지원합니다. 현재 배포 파일은 debug 테스트 빌드입니다. 파일 이름과 다운로드 주소는 버전 번호 없이 유지합니다.
+Android 8.0 이상을 지원합니다. 현재 배포 파일은 정식 릴리스 서명 빌드입니다. 파일 이름과 다운로드 주소는 버전 번호 없이 유지합니다.
 
 ## 특징
 
