@@ -19,7 +19,7 @@ vt() { # rate-limited curl (free tier: 4/min -> 16s spacing), retries on 429/5xx
     case $code in 2??) cat "$WORK/resp"; return 0;; 404) return 4;; 429|5??|000) sleep $((60*i));; *) echo "VT HTTP $code" >&2; return 1;; esac
   done; echo "VT retries exhausted" >&2; return 1
 }
-gh release download "$TAG" -R "$REPO" -D "$WORK/a" -p '*.exe' -p '*.msi' -p '*.msix' -p '*.dmg' -p '*.pkg' -p '*.AppImage' -p '*.deb' -p '*.rpm'
+gh release download "$TAG" -R "$REPO" -D "$WORK/a" -p '*.exe' -p '*.msi' -p '*.msix' -p '*.dmg' -p '*.pkg' -p '*.AppImage' -p '*.deb' -p '*.rpm' -p '*.apk'
 LINES=()
 for f in "$WORK"/a/*; do
   name=$(basename "$f"); size=$(stat -c%s "$f"); sha=$(sha256sum "$f" | cut -d' ' -f1)
